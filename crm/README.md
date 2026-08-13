@@ -1,8 +1,10 @@
 # 🚀 Enterprise CRM System
 
-A full-stack Customer Relationship Management (CRM) application built using React.js, Node.js, Express.js, and MongoDB.
+A full-stack Customer Relationship Management (CRM) application built using **React.js, Node.js, Express.js, and MongoDB**.
 
 The system helps businesses manage leads, customers, deals, and sales activities from a centralized dashboard.
+
+---
 
 ## 📌 Project Overview
 
@@ -14,7 +16,7 @@ Users can:
 * Manage customers
 * Track deals
 * Record sales activities
-* Monitor sales pipeline
+* Monitor the sales pipeline
 * Track lead conversion
 * Update lead and deal statuses
 
@@ -30,7 +32,7 @@ Users can:
 * Delete leads
 * Update lead status
 * Filter leads by status
-* Store deal value
+* Store lead value
 * Add notes
 
 **Lead Statuses:**
@@ -55,7 +57,7 @@ Users can:
 * View deals
 * Set deal value
 * Set deal stage
-* Add descriptions
+* Add deal descriptions
 * Update deal stage
 * Delete deals
 * Track sales pipeline
@@ -181,9 +183,9 @@ crm/
 
 ## ⚙️ How to Run the Project
 
-### 1. Backend
+### 1. Start the Backend
 
-Open a terminal:
+Open a terminal and run:
 
 ```bash
 cd backend
@@ -197,9 +199,9 @@ The backend runs on:
 http://localhost:5000
 ```
 
-### 2. Frontend
+### 2. Start the Frontend
 
-Open another terminal:
+Open another terminal and run:
 
 ```bash
 cd frontend
@@ -207,7 +209,7 @@ npm install
 npm run dev
 ```
 
-The frontend runs on:
+The frontend normally runs on:
 
 ```text
 http://localhost:5173
@@ -217,7 +219,7 @@ http://localhost:5173
 
 ## 🗄️ Database
 
-The project uses MongoDB to store:
+The project uses **MongoDB** to store:
 
 * Leads
 * Customers
