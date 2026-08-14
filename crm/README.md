@@ -12,13 +12,13 @@ The Enterprise CRM System provides a simple and efficient way to manage customer
 
 Users can:
 
-* Manage leads
-* Manage customers
-* Track deals
-* Record sales activities
-* Monitor the sales pipeline
-* Track lead conversion
-* Update lead and deal statuses
+- Manage leads
+- Manage customers
+- Track deals
+- Record sales activities
+- Monitor the sales pipeline
+- Track lead conversion
+- Update lead and deal statuses
 
 ---
 
@@ -26,78 +26,78 @@ Users can:
 
 ### 👥 Lead Management
 
-* Add new leads
-* View leads
-* Edit lead information
-* Delete leads
-* Update lead status
-* Filter leads by status
-* Store lead value
-* Add notes
+- Add new leads
+- View leads
+- Edit lead information
+- Delete leads
+- Update lead status
+- Filter leads by status
+- Store lead value
+- Add notes
 
 **Lead Statuses:**
 
-* New
-* Contacted
-* Qualified
-* Closed
+- New
+- Contacted
+- Qualified
+- Closed
 
 ### 🏢 Customer Management
 
-* Add customers
-* View customers
-* Edit customer information
-* Delete customers
-* Store company information
-* Store contact details
+- Add customers
+- View customers
+- Edit customer information
+- Delete customers
+- Store company information
+- Store contact details
 
 ### 💼 Deal Management
 
-* Create deals
-* View deals
-* Set deal value
-* Set deal stage
-* Add deal descriptions
-* Update deal stage
-* Delete deals
-* Track sales pipeline
+- Create deals
+- View deals
+- Set deal value
+- Set deal stage
+- Add deal descriptions
+- Update deal stage
+- Delete deals
+- Track sales pipeline
 
 ### 📞 Activity Management
 
-* Create activities
-* View activities
-* Delete activities
-* Add subjects and descriptions
-* Select activity type
-* Track activity status
-* Connect activities with leads
-* Connect activities with customers
+- Create activities
+- View activities
+- Delete activities
+- Add subjects and descriptions
+- Select activity type
+- Track activity status
+- Connect activities with leads
+- Connect activities with customers
 
 **Activity Types:**
 
-* Call
-* Email
-* Meeting
-* Follow-up
-* Note
-* Task
+- Call
+- Email
+- Meeting
+- Follow-up
+- Note
+- Task
 
 **Activity Statuses:**
 
-* Pending
-* Completed
-* Cancelled
+- Pending
+- Completed
+- Cancelled
 
 ### 📊 Dashboard
 
 The dashboard displays:
 
-* Total Leads
-* Total Customers
-* Pipeline Value
-* Conversion Rate
-* Lead Status Breakdown
-* Sales Information
+- Total Leads
+- Total Customers
+- Pipeline Value
+- Conversion Rate
+- Lead Status Breakdown
+- Sales Information
 
 ---
 
@@ -105,30 +105,30 @@ The dashboard displays:
 
 ### Frontend
 
-* React.js
-* Vite
-* Axios
-* JavaScript
-* HTML5
-* CSS3
+- React.js
+- Vite
+- Axios
+- JavaScript
+- HTML5
+- CSS3
 
 ### Backend
 
-* Node.js
-* Express.js
-* REST API
+- Node.js
+- Express.js
+- REST API
 
 ### Database
 
-* MongoDB
-* Mongoose
+- MongoDB
+- Mongoose
 
 ### Development Tools
 
-* Visual Studio Code
-* Git
-* GitHub
-* npm
+- Visual Studio Code
+- Git
+- GitHub
+- npm
 
 ---
 
@@ -185,7 +185,7 @@ crm/
 
 ### 1. Start the Backend
 
-Open a terminal and run:
+Open a terminal:
 
 ```bash
 cd backend
@@ -201,7 +201,7 @@ http://localhost:5000
 
 ### 2. Start the Frontend
 
-Open another terminal and run:
+Open another terminal:
 
 ```bash
 cd frontend
@@ -221,10 +221,10 @@ http://localhost:5173
 
 The project uses **MongoDB** to store:
 
-* Leads
-* Customers
-* Deals
-* Activities
+- Leads
+- Customers
+- Deals
+- Activities
 
 Example local MongoDB connection:
 
@@ -292,15 +292,15 @@ The project includes `.gitignore` to prevent sensitive and unnecessary files fro
 
 ## 🎯 Future Improvements
 
-* User authentication
-* Role-based access control
-* Advanced sales analytics
-* Search and pagination
-* Charts and reports
-* Email integration
-* Customer profile pages
-* Notifications
-* Cloud deployment
+- User authentication
+- Role-based access control
+- Advanced sales analytics
+- Search and pagination
+- Charts and reports
+- Email integration
+- Customer profile pages
+- Notifications
+- Cloud deployment
 
 ---
 
