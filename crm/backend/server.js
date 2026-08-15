@@ -4,6 +4,7 @@ const express = require("express");
 const cors = require("cors");
 
 const connectDB = require("./config/db");
+
 const {
   notFound,
   errorHandler,
@@ -17,10 +18,14 @@ const dashboardRoutes = require("./routes/dashboard");
 
 const app = express();
 
+// ===============================
 // Connect to MongoDB
+// ===============================
 connectDB();
 
+// ===============================
 // Middleware
+// ===============================
 app.use(
   cors({
     origin:
@@ -32,7 +37,9 @@ app.use(
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Health check
+// ===============================
+// Health Check
+// ===============================
 app.get("/api/health", (req, res) => {
   res.json({
     success: true,
@@ -40,21 +47,26 @@ app.get("/api/health", (req, res) => {
   });
 });
 
-// Routes
+// ===============================
+// API Routes
+// ===============================
 app.use("/api/leads", leadRoutes);
 app.use("/api/customers", customerRoutes);
 app.use("/api/activities", activityRoutes);
 app.use("/api/deals", dealRoutes);
 app.use("/api/dashboard", dashboardRoutes);
 
-// 404 + error handling
+// ===============================
+// 404 + Error Handling
+// ===============================
 app.use(notFound);
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 5000;
+// ===============================
+// Start Server
+// ===============================
+const PORT = process.env.PORT || 10000;
 
-app.listen(PORT, () => {
-  console.log(
-    `Server running on http://localhost:${PORT}`,
-  );
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`CRM API server running on port ${PORT}`);
 });
