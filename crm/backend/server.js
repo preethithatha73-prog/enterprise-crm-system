@@ -5,10 +5,7 @@ const cors = require("cors");
 
 const connectDB = require("./config/db");
 
-const {
-  notFound,
-  errorHandler,
-} = require("./middleware/errorHandler");
+const { notFound, errorHandler } = require("./middleware/errorHandler");
 
 const leadRoutes = require("./routes/leads");
 const customerRoutes = require("./routes/customers");
@@ -28,14 +25,22 @@ connectDB();
 // ===============================
 app.use(
   cors({
-    origin:
-      process.env.CLIENT_URL ||
-      "http://localhost:5173",
-  }),
+    origin: process.env.CLIENT_URL || "http://localhost:5173",
+  })
 );
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// ===============================
+// Root Route
+// ===============================
+app.get("/", (req, res) => {
+  res.json({
+    success: true,
+    message: "Enterprise CRM API is running",
+  });
+});
 
 // ===============================
 // Health Check
